@@ -243,16 +243,18 @@ background: rgb(255, 255, 255);
 }
 
 /* Footer Section */
-footer {
-    padding: 20px 0;
-    background-color: #000;
-    color: #fff;
+footer .container{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
 }
 
 footer p {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 footer .social-icons a {
-    margin: 0 10px;
+    margin: 0 20px;
+    width: 36.86px;
+height: 35.95px;
 }
