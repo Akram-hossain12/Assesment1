@@ -1,0 +1,180 @@
+/* basic csss.. */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Header Section */
+header {
+    background-color: #f5f5f5;
+    padding: 1rem 0;
+}
+
+header .container {
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+header .btn {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* banner Section */
+.banner {
+    padding: 80px 0;
+    background-color: #f0f0f0;
+    background-image: url('/assets/Hero-bg.png');;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+}
+
+.banner h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.banner .btn {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Why Web Development Section */
+
+.why-web-dev {
+    padding: 50px 0;
+    margin-top: 28px;
+    width: 1050px;
+    margin: auto;
+}
+.why-web-dev .container p{
+    font-size: 18px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.why-web-dev .cards {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 30px;
+}
+.web-card-titel{
+    text-align: start;
+    width: 390px;
+
+}
+.web-card-titel a button{
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+/* .card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} */
+
+.card .btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Targets Sections */
+.targets {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+.targets .cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.card {
+    width: 30%;
+}
+
+/* Support Section */
+.support {
+    padding: 50px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+.support form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.support input {
+    padding: 10px;
+    width: 70%;
+    border-radius: 5px;
+    border: none;
+}
+
+.support button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+}
+
+/* Footer Section */
+footer {
+    padding: 20px 0;
+    background-color: #000;
+    color: #fff;
+}
+
+footer p {
+    margin-bottom: 20px;
+}
+
+footer .social-icons a {
+    margin: 0 10px;
+}
