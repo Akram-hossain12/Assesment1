@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: "Azeret Mono", monospace;
     line-height: 1.6;
 }
 
@@ -111,23 +111,43 @@ header .btn {
     font-weight: 400;
     margin-top: 30px;
 }
-/* .card {
-    background-color: #fff;
+.card1 { 
+    background: rgba(255, 76, 30, 0.05);
     padding: 20px;
     border-radius: 10px;
     width: 30%;
-    text-align: center;
+    text-align: left;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-} */
 
-.card .btn {
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: #000;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
+} 
+.card2{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: left;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    margin-left: 20px;
 }
+.card3{
+    border-radius: 16px;
+
+    background: rgba(255, 223, 0, 0.05);
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: left;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    margin-left: 20px;
+}
+.card1 .btn {
+    margin-top: 20px;
+    color: #fff;
+    border-radius: 5px;
+    color: #000;
+}
+
 /* inspiration */
 .inspiration {
  margin-top: 30px;
@@ -145,7 +165,14 @@ header .btn {
     padding: 50px 0;
     background-color: #f9f9f9;
 }
-
+.targets .container {
+    margin-top: 30px;
+}
+.targets .container p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #898787;
+}
 .targets .cards {
     display: flex;
     justify-content: space-around;
